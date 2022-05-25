@@ -60,6 +60,19 @@ export default function Home() {
         </a>
       </footer>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.1/js/uikit.min.js" strategy="beforeInteractive" />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-5WSE22ZS9K"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5WSE22ZS9K');
+        `}
+      </Script>
     </div>
   )
 }
