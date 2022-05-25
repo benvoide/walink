@@ -30,6 +30,12 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.1/css/uikit.min.css" integrity="sha512-E7TS+FaMV/M8JmF1DwrR0eQD2y3atLg7GFAYVlqVNLOUeupX50u07vN8DqKXdSEXlePsrO+pb/HhuHzJCsaByw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" href="/favicon.png" />
+
+        <meta property="og:image" content="https://i.imgur.com/Gu79iBp.png"/>
+        <meta property="og:title" content="Walink"/>
+        <meta property="og:description" content="Enviá mensajes através de WhatsApp a contactos no agendados."/>
+        <meta property="og:image:width" content="1280"/>
+        <meta property="og:image:height" content="720"/>
       </Head>
       <main className='uk-container uk-container-small uk-flex uk-flex-center uk-flex-middle uk-height-1-1'>
         <div className='uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-width-1-1'>
