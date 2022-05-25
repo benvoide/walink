@@ -14,7 +14,7 @@ export default function Home() {
     const
       base = 'https://wa.me/',
       phoneRegex = /^[a-zA-Z0-9\-().\s]{10,15}$/;
-    if( phone.match(phoneRegex) ) {
+    if(phone.match(phoneRegex)) {
       router.push( base + phone );
     } else {
       alert( 'El número ingresado es inválido.' );
@@ -39,18 +39,18 @@ export default function Home() {
           <div className='uk-width-1-1'>
             <form className='uk-flex uk-flex-center' onSubmit={submitContact}>
               <input
-                className='uk-input uk-border-rounded uk-width-3-5'
+                className='uk-input uk-border-rounded uk-width-1-1'
                 id='phone'
                 name='phone'
                 type='text'
-                placeholder='📱 Ingresá el número al que deseás escribir por WhatsApp...'
+                placeholder='📱 Ingresá el número de WhatsApp...'
                 required
               />
-              <button className='uk-button uk-button-default uk-margin-left uk-width-1-5' type='submit'>Enviar</button>
+              <button className='uk-button uk-button-default uk-margin-left uk-width-1-3 uk-margin-top' type='submit'>Enviar</button>
             </form>
           </div>
           <div className='uk-margin-top'>
-            Enviá mensajes a contactos no agendados.
+            Enviá mensajes a través de WhatsApp a contactos no agendados.
           </div>
         </div>
       </main>

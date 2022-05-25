@@ -11,6 +11,10 @@ html, body {
   height: 100%;
 }
 
+form {
+  flex-wrap: wrap;
+}
+
 main {
   width: 100%;
 }
